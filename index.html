@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="FazelMahdi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./content/index.css">
+    <title>پنل </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="user-info">
+                    <div class="">
+                        <p class="user-name mb-0">مهدی فاضلی</p>
+                        <p class="user-name user-level">سطح عضویت: نقره‌ای</p>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="list-unstyled components pr-2 mx-2">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="">
+                        <div>
+                            <i class="fa fa-home align-self-center"></i>
+                            <span>پیشخوان</span>
+                        </div>
+                    </a>
+                    <ul class="collapse list-unstyled pr-4" id="homeSubmenu">
+                        <li class="">
+                            <div class="sub-menu">
+                                <i class="fa fa-camera align-self-center"></i>
+                                <span>پشتیبانی</span>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="sub-menu">
+                                <i class="fa fa-camera align-self-center"></i>
+                                <span>پشتیبانی</span>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="sub-menu">
+                                <i class="fa fa-camera align-self-center"></i>
+                                <span>پشتیبانی</span>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="">
+                        <div>
+                            <i class="fa fa-user align-self-center"></i>
+                            <span>درگاه‌های پرداخت</span>
+                        </div>
+                    </a>
+                    <ul class="collapse list-unstyled pr-4" id="pageSubmenu">
+                        <li class="">
+                            <div class="sub-menu">
+                                <i class="fa fa-camera align-self-center"></i>
+                                <span>پشتیبانی</span>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+        <!-- Page Content -->
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-right"></i>
+                    </button>
+                    <div class="">
+                        <!-- RROFILE DROPDOWN -->
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <img src="./assets/images/714b6b02c1422caafc355ba7abb59522.png" alt="">
+                            </button>
+                            <div class="dropdown-content">
+                                <div class="head">
+                                    <img src="./assets/images/714b6b02c1422caafc355ba7abb59522.png" class="avatar">
+                                    <span title="مهدی فاضلی" class="mf-name">مهدی فاضلی</span>
+                                    <span class="mf-id persian-num">09031003088</span>
+                                </div>
+
+                                <div class="items">
+                                    <span>کیف پول</span>
+                                </div>
+
+                                <div class="items">
+                                    <span>بیمه‌نامه‌های من</span>
+                                </div>
+
+                                <div class="items">
+                                    <span>یاداوری‌های من</span>
+                                </div>
+
+                                <div class="items">
+                                    <span> خروج</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-support">
+                        <a href="tel:+982188636000" class="hidden-xs navbar-title-cu">پشتیبانی:
+                            ۴۱۲۳۹-۰۲۱</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="main-layout">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mf-page-title">
+                                <p class="">کیف‌پول‌ها</p>
+                                <p><small>تمام کیف‌پول‌های شما در این صفحه نمایش داده می‌شوند.</small></p>
+                            </div>
+                            <hr>
+                            <!-- TABLE -->
+                            <div class="col-md-12">
+                                <div class="mf-transaction-header-container">
+                                    <div class="row mf-transaction-fields-title">
+                                        <div class="col-lg-2 col-md col-sm hidden-xs"><span>نام محصول</div>
+                                        <div class="col-lg-3 col-md col-sm hidden-xs"><span>مبدأ</span><span class="trans-float-destination-title">،
+                                                مقصد</span></div>
+                                        <div class="col-lg-3 col-md col-sm hidden-title-md hidden-xs"><span>مقصد</span></div>
+                                        <div class="col-lg-2 col-md col-sm hidden-xs"><span>تاریخ تراکنش</span></div>
+                                        <div class="col-lg-1 col-md col-sm hidden-xs"><span>مبلغ</span><small>(تومان)</small></div>
+                                        <div class="col-lg-1 col-md col-sm hidden-xs"><span>موجودی</span><small>(تومان)</small></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="row mf-transaction-row hand">
+                                    <div class="col-lg-2 col-md col-sm"><span class="transaction-id"><span><span class="icon-internal-trans"></span></span></span><span
+                                            class="text persian-num">39510550959</span></div>
+                                    <div class="col-lg-6 col-md col-sm hidden-xs nav-to-from ta-center">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-margin ta-center"><img
+                                                    src="https://gravatar.com/avatar/714b6b02c1422caafc355ba7abb59522?r=g&amp;d=mm"
+                                                    class="user-image"><span class="text">مهدی فاضلی</span></div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-margin ta-center"><span
+                                                    class="icon-forward hidden-sm hidden-md"></span><img src="https://logoland.zarinpal.com/da99a5786e26a055031e6feff2239e3e/125x125.png"
+                                                    class="user-image"><span class="text">بیمه میهن</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md col-sm col-xs-12 ta-center"><span class="text created persian-num">6
+                                            ماه پیش</span></div>
+                                    <div class="col-lg-1 col-md col-sm col-xs-12 ta-center">
+                                        <span class="nav-amount">
+                                            <span class="text persian-num">1,000</span>
+                                        </span>
+                                    </div>
+                                    <div class="col-lg-1 col-md col-sm ta-center hidden-xs"><span class="text persian-num">1,000</span></div>
+                                </div>
+                                <div class="row mf-transaction-row hand">
+                                    <div class="col-lg-2 col-md col-sm"><span class="transaction-id"><span><span class="icon-internal-trans"></span></span></span><span
+                                            class="text persian-num">39510550959</span></div>
+                                    <div class="col-lg-6 col-md col-sm hidden-xs nav-to-from ta-center">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-margin ta-center"><img
+                                                    src="https://gravatar.com/avatar/714b6b02c1422caafc355ba7abb59522?r=g&amp;d=mm"
+                                                    class="user-image"><span class="text">مهدی فاضلی</span></div>
+                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-margin ta-center"><span
+                                                    class="icon-forward hidden-sm hidden-md"></span><img src="https://logoland.zarinpal.com/da99a5786e26a055031e6feff2239e3e/125x125.png"
+                                                    class="user-image"><span class="text">بیمه ایران</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md col-sm col-xs-12 ta-center"><span class="text created persian-num">6
+                                            ماه پیش</span></div>
+                                    <div class="col-lg-1 col-md col-sm col-xs-12 ta-center">
+                                        <span class="nav-amount">
+                                            <span class="text persian-num">1,000</span>
+                                        </span>
+                                    </div>
+                                    <div class="col-lg-1 col-md col-sm ta-center hidden-xs"><span class="text persian-num">1,000</span></div>
+                                </div>
+                            </div>
+                            <!-- BUTTONS -->
+                            <button class="btn-gradient-radius">
+                                <i class="fas fa-dollar-sign btn-icon"></i>
+                                <span class="btn-label">تسویه‌حساب</span>
+                            </button>
+                            <button class="btn-gradient-radius">
+                                <i class="fas fa-dollar-sign btn-icon"></i>
+                                <span class="btn-label">ایجاد کارت</span>
+                            </button>
+                            <button class="btn-gradient-radius">
+                                <i class="fas fa-dollar-sign btn-icon"></i>
+                                <span class="btn-label">مشاهده کاربران</span>
+                            </button>
+                            <button class="btn-gradient-radius main-btn">
+                                <span class="btn-label">درخواست بیمه</span>
+                            </button>
+                            <button class="btn-gradient-radius success-btn">
+                                <i class="fas fa-plus-circle"></i>
+                                <span class="btn-label">مشاهده کاربران</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/jquery-3.3.1.min.js"></script>
+    <script src="./assets/bootstrap.min.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
