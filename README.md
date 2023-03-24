@@ -1,5 +1,5 @@
 # AdminPanel
 
-*mini ui kit
+* mini ui kit
 
 Responsive Admin Panel BoilerPlate With SCSS + HTML + BOOTSTRAP
